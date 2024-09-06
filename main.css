@@ -1,0 +1,126 @@
+/* -------- Fonts for later ---------- */
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 400 to 700
+
+.cabin-<uniquifier> {
+  font-family: "Cabin", system-ui;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+} */
+
+body{
+  background-color: #FEFCF7;
+  background-image: url('img/background.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+li{
+  list-style:none;  
+}
+a{
+  text-decoration: none;
+  color: #000;
+  font-size: 1rem; 
+}
+header{
+  position:relative;
+}
+
+.navbar {
+  width:100%;
+  height: 48px;
+  max-width:fill;
+  margin: 0 auto;
+  display: flex;
+  position: sticky;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  padding: 10px 20px;
+}
+
+main{
+  background-color: #FEFCF7; 
+  padding: 25px;
+  vertical-align: middle;
+}
+
+.title_img{
+  max-width:100%;
+}
+
+.topNavImg{
+  max-height: 32px;
+}
+
+.copyWriteInfo{
+  display: grid;
+  text-align: center;
+  vertical-align: middle;
+}
+
+nav a {
+  display:inline-block;
+  padding:20px;
+  background-color:#FEFCF7;
+  border-radius:5px;
+  font-weight:800;
+  color:grey;
+  text-decoration: none;
+}
+
+
+/* Navbar container */
+
+button.tertiary{
+  color:grey;
+  border: 2px solid black;
+  background-color:white;
+  border-color:grey;
+}
+
+button{
+    text-transform: uppercase;
+    font-size:1.2em;
+    color: white;
+    background-color: #F4C05C;
+    border:none;
+    padding:8px 28px;
+    margin: 4px 0 0 4px;
+    border-radius: 6px;
+    width: fit-content;
+    white-space: nowrap;
+}
+
+footer {
+  margin-top: 20px;
+  background-color: #3c3c3c;
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  gap: 10px; /* Space between the divs */
+  margin:12px 12px;
+}
+
+p, li {
+  line-height:1.2rem;
+}
+
+#backToTop{
+  display:block;
+  text-align:right;  
+}
+
+
+/* @media sizes */
+
+@media screen and (max-width: 1040px) {
+  header, main, footer{
+    max-width: 1270px;
+  }
+}
+  
